@@ -13,7 +13,6 @@ const Header = lazy(() => import('./components/Header/Header'));
 function App() {
   return (
     <div className='App'>
-      444
       <Provider store={store}>
         <Router>
           <Suspense fallback={<div>Loading...</div>}>
@@ -25,6 +24,7 @@ function App() {
           </Suspense>
         </Router>
       </Provider>
+      Hello 1
     </div>
   );
 }
