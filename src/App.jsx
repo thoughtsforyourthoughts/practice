@@ -24,7 +24,7 @@ function App() {
           </Suspense>
         </Router>
       </Provider>
-      Hello 1
+      Hello 2
     </div>
   );
 }
